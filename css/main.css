@@ -1,3 +1,46 @@
 /*
  * Estilos de tu proyecto
  */
+ body {
+	font-family: 'Montserrat', sans-serif;
+ }
+
+/*FOOTER*/
+
+.page-footer {
+	display: flex;
+	padding: 40px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-top-nav-bar {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+}
+
+.page-footer {
+	background-color: #333447;
+}
+
+.top-nav-item {
+	list-style: none;
+}
+
+.top-nav-item>a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.top-nav-item>a:hover {
+	color: #FF00BF;
+}
+
+.caps>a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
